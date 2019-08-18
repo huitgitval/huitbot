@@ -24,7 +24,6 @@ import java.util.Optional;
 public class ApiUtil {
     DiscordApi curApi = null;
     private final String token = "<token goes here, removed for safety>";
-    //https://discordapp.com/oauth2/authorize?client_id=612061461530935303&scope=bot&permissions=8
     private final long channelForLogging = 568244181756018688L;
 
     public DiscordApi getApi() {
